@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ABDULLHA</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <link rel="icon" href="https://img.icons8.com/color/48/jerry.png" type="image/x-icon">
+    <meta name="theme-color" content="#05080b" id="theme-color">
+    <link rel="preload" href="fonts/jetbrains-mono-regular.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content=" ABDULLHA PROTIFLIO WEBSITE ">
+    <meta property="og:description" content="I'am Abdullha, I'am Python Developer.">
+    <meta property="og:url" content="https://abdullha.netlify.app/">
+    <meta property="og:image" content="https://abdullah.battlecore.xyz/xylon.png">
+    <!-- Change this if your logo is different -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="ABDULLHA PROTIFLIO WEBSITE">
+    <meta property="og:locale" content="en_US">
+
+
+    <link rel="stylesheet" href="style.css?v=2">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <script>document.documentElement.classList.remove('no-js');</script>
+</head>
+
+<body>
+    <!-- Animated Background -->
+    <canvas id="bg-flow" aria-hidden="true"></canvas>
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="bg-aurora" aria-hidden="true"></div>
+    <div id="live-region" class="sr-only" aria-live="polite"></div>
+
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header" id="top">
+        <div class="header-inner">
+            <div class="brand">
+                <span class="brand-icon"><i class="bi bi-braces" aria-hidden="true"></i></span>
+                <span class="brand-name">ᏗᏰᎴᏬᏝᏝᏂᏗ<span class="accent-dot">乂ＡＸ</span></span>
+            </div>
+            <nav class="nav" aria-label="Primary">
+                <ul class="nav__list">
+                    <li><a href="#about" data-nav>About</a></li>
+                    <li><a href="#stack" data-nav>Stack</a></li>
+                    <li><a href="#projects" data-nav>Projects</a></li>
+                    <li><a href="#contact" data-nav>Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">
+                    <i class="bi bi-sun-fill theme-icon" aria-hidden="true"></i>
+                </button>
+                <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"
+                    aria-controls="mobileNav">
+                    <span class="nav-toggle__line"></span>
+                    <span class="nav-toggle__line"></span>
+                    <span class="nav-toggle__line"></span>
+                </button>
+            </div>
+        </div>
+        <div id="mobileNav" class="mobile-nav" hidden>
+            <ul class="mobile-nav__list">
+                <li><a href="#about" data-nav>About</a></li>
+                <li><a href="#stack" data-nav>Stack</a></li>
+                <li><a href="#projects" data-nav>Projects</a></li>
+                <li><a href="#contact" data-nav>Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main id="main">
+        <!-- HERO -->
+        <section class="section hero" aria-labelledby="hero-title">
+            <div class="hero__layout">
+                <div class="hero__content">
+                    <h1 id="hero-title" class="hero__title">
+                        I'am Abdullha, I'am Python Developer.
+                    </h1>
+                    <p class="hero__roles">
+                        <span class="role-prefix"><i class="bi bi-cpu" aria-hidden="true"></i></span>
+                        <span class="role-rotator"
+                            data-roles='["Junior Web Developer","Full‑Stack Python Developer","Web Design Practitioner","Performance & Accessibility Skillful","API & Platform Architect"]'>Web
+                            Engineer</span>
+                        <span class="caret" aria-hidden="true"></span>
+                    </p>
+                    <p class="hero__tagline">
+                        I architect and deliver scalable Python / Nobe.js frontends & robust Html / PHP / Java
+                        integrating performance budgets, observability, accessibility, and secure CI/CD from the outset.
+                    </p>
+                    <div class="hero__actions">
+                        <a href="#projects" class="btn btn--primary"><i class="bi bi-kanban" aria-hidden="true"></i>
+                            Featured Work</a>
+                        <a href="#contact" class="btn btn--outline"><i class="bi bi-send" aria-hidden="true"></i>
+                            Collaborate</a>
+                        <button id="copySnippet" class="btn btn--ghost" data-copy-target="#heroSnippet"><i
+                                class="bi bi-clipboard" aria-hidden="true"></i> Copy Snippet</button>
+                    </div>
+                    <ul class="hero__meta">
+                        <li><i class="bi bi-lightning-charge"></i> PYTHON DEVELOPER</li>
+                        <li><i class="bi bi-universal-access-circle"></i> WEB DEVELOPER</li>
+                        <li><i class="bi bi-cloud-check"></i> API DEVELOPER</li>
+                    </ul>
+                </div>
+                <div class="hero__code-block" aria-label="Architecture snippet">
+                    <pre id="heroSnippet"><code><span class="c">
+# Python development and web application configuration
+
+config = {
+    "developerProfile": {
+        "name": "Abdullha",
+        "expertise": ["Python Development", "Web Development", "API Development"],
+        "organizations": ["Toolweb", "ALL IS ONE"]
+    },
+    "projectStats": {
+        "pythonCreated": 596,
+        "webAppsBuilt": 210,
+        "apisDeployed": 31,
+        "platforms": {
+            "python": 456,
+            "webApps": 200,
+            "apis": 85,
+            "automation": 10
+        }
+    },
+    "technologies": ["Python", "PHP", "JavaScript", "Html", "Node.js", "React"],
+    "webPlatforms": ["abdullha", "all is one", "xylon", "the end"],
+    "automationFocus": True,
+    "clientSatisfaction": "55% positive feedback"
+
+}</code></pre>
+                    <div class="code-bar">
+                        <span class="dot green"></span><span class="dot yellow"></span><span class="dot red"></span>
+                        <span class="fname">AX-PROFILE.JSON</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="section" aria-labelledby="about-title">
+            <div class="section__header">
+                <h2 id="about-title" class="section__title">About</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="about__grid">
+                <div class="about__text reveal">
+                    <p>
+                        I’m Abdullha, A Junior Web Engineer Focused On Robust Architectures, Maintainable Code, And
+                        Measurable User Value.
+                    </p>
+                    <p>
+                        Hey There! I'm Abdullha, A 18 Y/O Backend Developer From Morrelgonj.
+                        Currently, I'm Studying In College..
+                        Join Me In Exploring And Creating New Things In The Digital World.
+                    </p>
+                    <ul class="stats" aria-label="Key metrics">
+                        <li><span class="num">3+</span><span class="label">Years</span></li>
+                        <li><span class="num">150+</span><span class="label">Features Shipped</span></li>
+                        <li><span class="num">90%</span><span class="label">Lighthouse Avg</span></li>
+                        <li><span class="num">1</span><span class="label">P1 Rollbacks</span></li>
+                    </ul>
+                </div>
+                <div class="about__panel reveal">
+                    <figure class="profile-card">
+                        <img src="abdullha.png" alt="Abdullha" loading="lazy">
+                        <figcaption>
+                            <span class="title">ABDULLHA 404 </span>
+                            <span class="sub">Developer</span>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- STACK -->
+        <section id="stack" class="section" aria-labelledby="stack-title">
+            <div class="section__header">
+                <h2 id="stack-title" class="section__title">Tech Stack & Principles</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="stack__groups">
+                <div class="stack-group reveal">
+                    <h3>Programming Languages</h3>
+                    <ul class="tag-list">
+                        <li class="tag">PHP</li>
+                        <li class="tag">JavaScript (ESNext)</li>
+                        <li class="tag">Html</li>
+                        <li class="tag">Python (Scripting)</li>
+                    </ul>
+                    <ul class="bars">
+                        <li><span>PHP</span>
+                            <div class="bar"><b style="--w:50%"></b></div>
+                        </li>
+                        <li><span>JavaScript</span>
+                            <div class="bar"><b style="--w:70%"></b></div>
+                        </li>
+                        <li><span>Python</span>
+                            <div class="bar"><b style="--w:90%"></b></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="stack-group reveal">
+                    <h3>Web Development & APIs</h3>
+                    <ul class="tag-list">
+                        <li class="tag">Web Degain</li>
+                        <li class="tag">API Capture</li>
+                        <li class="tag">Telethon</li>
+                    </ul>
+                    <ul class="bars">
+                        <li><span>Web Source</span>
+                            <div class="bar"><b style="--w:89%"></b></div>
+                        </li>
+                        <li><span>API Capture</span>
+                            <div class="bar"><b style="--w:60%"></b></div>
+                        </li>
+                        <li><span>Telethon</span>
+                            <div class="bar"><b style="--w:20%"></b></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section" aria-labelledby="projects-title">
+            <div class="section__header">
+                <h2 id="projects-title" class="section__title">Projects</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="projects__grid" id="projectGrid">
+                <article class="project-card reveal" data-tags="backend performance">
+                    <div class="project-card__head">
+                        <span class="project-icon"><i class="bi bi-tools" aria-hidden="true"></i></span>
+                        <h3 class="project-title">WEB TOOL</h3>
+                    </div>
+                    <p class="project-desc">
+                        Welcome to Abdullha's Official Tool Website тАУ Explore Powerful Tools & Resources in One
+                        Placel.
+                    </p>
+                    <ul class="mini-tags">
+                        <li>JavaScript</li>
+                        <li>Html</li>
+                        <li>CSS</li>
+                        <li>Nobe.js</li>
+                        <li>PHP</li>
+                    </ul>
+                    <div class="project-img lazy">
+                        <img data-src="Screenshot _1.png" alt="API gateway architecture" loading="lazy">
+                    </div>
+                    <div class="project-links">
+                        <a href="https://abdullha.0web.top/" class="plink" aria-disabled="true"><i
+                                class="bi bi-globe-americas"></i> Preview</a>
+                    </div>
+                </article>
+                <article class="project-card reveal" data-tags="frontend performance">
+                    <div class="project-card__head">
+                        <span class="project-icon"><i class="bi bi-file-person-fill" aria-hidden="true"></i></span>
+                        <h3 class="project-title">MAIN WEB</h3>
+                    </div>
+                    <p class="project-desc">
+                        My Main Portfolio Wbdsite
+                    </p>
+                    <ul class="mini-tags">
+                        <li>Html</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                    </ul>
+                    <div class="project-img lazy">
+                        <img data-src="Screenshot _2.png" alt="Main_Web" loading="lazy">
+                    </div>
+                    <div class="project-links">
+                        <a href="https://xylon.netlify.app/" class="plink" aria-disabled="true"><i
+                                class="bi bi-globe-americas"></i> Preview</a>
+                    </div>
+                </article>
+
+                <article class="project-card reveal" data-tags="frontend performance">
+                    <div class="project-card__head">
+                        <span class="project-icon"><i class="bi bi-file-person-fill" aria-hidden="true"></i></span>
+                        <h3 class="project-title">XALIF</h3>
+                    </div>
+                    <p class="project-desc">
+                        My Portfolio Wbdsite
+                    </p>
+                    <ul class="mini-tags">
+                        <li>Html</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                    </ul>
+                    <div class="project-img lazy">
+                        <img data-src="image.png" alt="Main_Web" loading="lazy">
+                    </div>
+                    <div class="project-links">
+                        <a href="https://xalif.netlify.app/" class="plink" aria-disabled="true"><i
+                                class="bi bi-globe-americas"></i> Preview</a>
+                    </div>
+                </article>
+
+                <article class="project-card project-card--placeholder reveal" data-tags="frontend">
+                    <div class="placeholder-inner">
+                        <i class="bi bi-layout-wtf" aria-hidden="true"></i>
+                        <p>Next Case Study</p>
+                        <span class="soon">In Progress</span>
+                    </div>
+                </article>
+            </div>
+
+            <div class="projects__more">
+                <a href="https://github.com/xylon-404" target="_blank" rel="noopener" class="btn btn--ghost">
+                    <i class="bi bi-github" aria-hidden="true"></i> More on GitHub
+                </a>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section" aria-labelledby="contact-title">
+            <div class="section__header">
+                <h2 id="contact-title" class="section__title">Contact</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="contact__grid">
+                <div class="contact__info reveal">
+                    <div class="info-block">
+                        <h3 class="info-block__title"><i class="bi bi-person-gear" aria-hidden="true"></i> Info</h3>
+                        <ul class="info-list">
+                            <li><span>Telegram Username</span> <a href="https://t.me/PRO_CODE_X">@PRO_CODE_X</a>
+                            </li>
+                            <li><span>Location:</span> Bangladesh</li>
+                            <li><span>Status:</span> Open to Junior & architecture roles</li>
+                        </ul>
+                    </div>
+                    <div class="social">
+                        <a href="https://github.com/xylon-404" class="soc" target="_blank" rel="noopener"><i
+                                class="bi bi-github"></i></a>
+                        <a href="https://t.me/PRO_CODE_X" class="soc" aria-label="abdullha"><i
+                                class="bi bi-telegram"></i></a>
+                        <a href="https://facebook.com/profile.php?id=100089818537734" class="soc"
+                            aria-label="abdullha"><i class="bi bi-facebook"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=8801983856000&text=%F0%9F%98%8D%20Hi%20Abdullha%2C%20%0A%0AHow%20Are%20You%20Bro%F0%9F%98%98"
+                            class="soc" aria-label="abdullha"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+                <form id="contact-form" class="contact__form reveal" novalidate>
+                    <div class="form-field">
+                        <label for="name">Name<span class="req" aria-hidden="true">*</span></label>
+                        <input id="name" name="name" type="text" autocomplete="name" required maxlength="90">
+                        <p class="err" aria-live="polite"></p>
+                    </div>
+                    <div class="form-field">
+                        <label for="email">Email<span class="req" aria-hidden="true">*</span></label>
+                        <input id="email" name="email" type="email" autocomplete="email" required maxlength="140">
+                        <p class="err" aria-live="polite"></p>
+                    </div>
+                    <div class="form-field">
+                        <label for="subject">Subject<span class="req" aria-hidden="true">*</span></label>
+                        <input id="subject" name="subject" type="text" required maxlength="160"
+                            placeholder="E.g. Architecture Review">
+                        <p class="err" aria-live="polite"></p>
+                    </div>
+                    <div class="form-field">
+                        <label for="message">Message<span class="req" aria-hidden="true">*</span></label>
+                        <textarea id="message" name="message" rows="6" required maxlength="1800"
+                            placeholder="Context, goals, constraints, timelines"></textarea>
+                        <p class="err" aria-live="polite"></p>
+                    </div>
+                    <div class="form-field honeypot" aria-hidden="true">
+                        <label for="hp">Leave empty</label>
+                        <input id="hp" type="text" tabindex="-1" autocomplete="off">
+                    </div>
+                    <fieldset class="form-field">
+                        <legend class="legend">Engagement Type (optional)</legend>
+                        <div class="checks">
+                            <label><input type="checkbox" name="engage" value="architecture"> Architecture</label>
+                            <label><input type="checkbox" name="engage" value="performance"> Performance</label>
+                            <label><input type="checkbox" name="engage" value="code-review"> Code Review</label>
+                            <label><input type="checkbox" name="engage" value="mentorship"> Mentorship</label>
+                        </div>
+                    </fieldset>
+                    <button type="submit" class="btn btn--primary btn--full">
+                        <i class="bi bi-send" aria-hidden="true"></i> Send Message
+                    </button>
+                    <p id="form-status" class="form-status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <p>&copy; <span id="year"></span> Abdullha. Built with performance & accessibility in mind.</p>
+            <p class="foot-small">Core Web Vitals · Progressive Enhancement · Typed Code</p>
+        </div>
+    </footer>
+
+    <script>
+        (function () {
+            window.addEventListener('touchmove', function (e) {
+                if (e.touches && e.touches.length > 1) {
+                    e.preventDefault();
+                }
+            }, { passive: false });
+
+            (function () {
+                let lastTouch = 0;
+                document.addEventListener('touchend', function (e) {
+                    const now = Date.now();
+                    if (now - lastTouch <= 300) {
+                        e.preventDefault();
+                    }
+                    lastTouch = now;
+                }, { passive: false });
+            })();
+
+            document.addEventListener('gesturestart', function (e) {
+                e.preventDefault();
+            });
+
+            window.addEventListener('wheel', function (e) {
+                if (e.ctrlKey || e.metaKey) {
+                    e.preventDefault();
+                }
+            }, { passive: false });
+
+            window.addEventListener('keydown', function (e) {
+                const isModifier = e.ctrlKey || e.metaKey;
+                if (!isModifier) return;
+
+                const key = e.key;
+                if (key === '+' || key === '-' || key === '=' || key === '0') {
+                    e.preventDefault();
+                }
+
+                if (e.code === 'NumpadAdd' || e.code === 'NumpadSubtract') {
+                    e.preventDefault();
+                }
+            });
+
+            window.addEventListener('keypress', function (e) {
+                if ((e.ctrlKey || e.metaKey) && (e.key === '+' || e.key === '=')) {
+                    e.preventDefault();
+                }
+            });
+        })();
+    </script>
+
+    <script>
+        document.addEventListener("visibilitychange", function () {
+            if (document.visibilityState === "visible") {
+                document.title = "ABDULLHA";
+                document.querySelector("#favicon").setAttribute("href", "src/png/main-favicon.png");
+            } else {
+                document.title = "Come Back To Web";
+                // CDN থেকে folded hands icon
+                document.querySelector("#favicon").setAttribute("href", "https://img.icons8.com/emoji/48/000000/folded-hands-light-skin-tone.png");
+            }
+        });
+
+        const validPaths = ["/", "/index.html"]; // এখানে তোমার আসল পেজগুলোর লিস্ট দাও
+        const currentPath = window.location.pathname;
+
+        if (!validPaths.includes(currentPath)) {
+            window.location.href = "/404.html"; // custom error page
+        }
+    </script>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
